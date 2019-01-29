@@ -7,9 +7,10 @@
 // }
 // printWindowValues();
 
-var a;
-for(a in window){
-  console.log(a);
+for (var a in window) {
+if (window.hasOwnProperty(a)) {
+console.log( window[a]);
+}
 }
 
 // ------------Work-2-------------//
