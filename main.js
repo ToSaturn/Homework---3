@@ -1,11 +1,16 @@
 //------------Work-1-------------//
 
-var arr=[1,2,3,4,5,6];
-function printWindowValues(){
- console.log(window.arr); //я и то, и то вывожу, потому что
- console.log(window);     //не уверена, что поняла задание
+// var arr=[1,2,3,4,5,6];
+// function printWindowValues(){
+//  console.log(window.arr); //я и то, и то вывожу, потому что
+//  console.log(window);     //не уверена, что поняла задание
+// }
+// printWindowValues();
+
+var a;
+for(a in window){
+  console.log(a);
 }
-printWindowValues();
 
 // ------------Work-2-------------//
 
